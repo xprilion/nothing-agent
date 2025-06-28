@@ -11,7 +11,7 @@ build/
 # Virtual environments
 venv/
 env/
-# .env/
+.env/
 .venv/
 
 # IDE specific files
