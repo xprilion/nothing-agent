@@ -2,7 +2,7 @@ from google.adk.agents import Agent
 
 
 root_agent = Agent(
-    name="aniket_agent",
+    name="nothing_agent",
     model="gemini-2.0-flash",
     description=(
         "Agent to do nothing."

@@ -12,7 +12,7 @@ This project provides a simple framework for creating and deploying agents using
 - [Project Structure](#project-structure)
 - [Agents](#agents)
   - [Weather & Time Agent](#weather--time-agent)
-  - [Aniket Agent](#aniket-agent)
+  - [Nothing Agent](#nothing-agent)
 - [API Endpoints](#api-endpoints)
 - [Customization](#customization)
 
@@ -85,7 +85,7 @@ This project demonstrates how to build and serve multiple agents, each with its 
 
 ```
 .
-├── aniket_agent/     # Contains the 'aniket_agent'
+├── nothing_agent/     # Contains the 'nothing_agent'
 │   └── agent.py
 ├── base_agent/       # Contains the 'weather_time_agent'
 │   └── agent.py
@@ -108,9 +108,9 @@ The application currently hosts two agents:
   - `get_current_time(city: str)`: Returns the current time for a city.
 - **Note:** The functionality is currently hardcoded for "New York".
 
-### Aniket Agent
+### Nothing Agent
 
-- **File:** `aniket_agent/agent.py`
+- **File:** `nothing_agent/agent.py`
 - **Description:** A placeholder agent with no specific functionality.
 
 ## API Endpoints

@@ -16,8 +16,8 @@ app_args = {"agents_dir": AGENT_DIR, "web": True}
 # Create FastAPI app with appropriate arguments
 app: FastAPI = get_fast_api_app(**app_args)
 
-app.title = "aniket-agent"
-app.description = "API for interacting with the Agent aniket-agent"
+app.title = "nothing-agent"
+app.description = "API for interacting with the Agent nothing-agent"
 
 
 # Main execution
